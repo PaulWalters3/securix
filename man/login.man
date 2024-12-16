@@ -1,0 +1,21 @@
+ 
+NAME:   login
+TYPE:   system program
+USAGE:  login
+
+DESCRIPTION:
+        Login is the program which is started a boot time.  Login never
+        exits.  This program displays the userid and password prompts
+        and keeps track of login usage.  It is similar to the Unix getty
+        process.
+
+FILES:
+        \bin\login.exe
+
+RELATED INFO:
+
+QUIRKS:
+        None
+
+Copyright 1992 Paul Walters
+

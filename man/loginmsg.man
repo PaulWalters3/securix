@@ -1,0 +1,22 @@
+ 
+NAME:   login.msg
+TYPE:   text file
+USAGE:
+
+DESCRIPTION:
+        The login.msg file contain text that is displayed before the
+        login prompt.  To change this message use an editor such as
+        DOS edit.
+
+FILES:
+        \etc\login.msg
+
+RELATED INFO:
+        bulletin.msg
+
+QUIRKS:
+        None.
+
+Copyright 1992 Paul Walters
+
+

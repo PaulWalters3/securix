@@ -1,0 +1,59 @@
+ 
+NAME:   mkshell
+TYPE:   system program
+USAGE:  mkshell
+
+DESCRIPTION:
+        The mkshell program will create a new user login shell.  A user
+        login shell is a program that is executed when a user logs into
+        the system.  Each user has a different shell.  Examples of shells
+        include DOS, DOSSHELL, and WINDOWS.  If you wish, you can configure
+        additional shells so SECURIX will be able to handle them.
+
+        To run the mkshell program, a user must have Superuser access
+        controls.  After invoking the mkshell program, a choice of installing
+        a new shell or removing a shell will appear.
+
+        If you select to install a shell, enter the name of the new shell
+        to install.  You may abort installation at any point by pressing
+        return without entering any information.  Next, enter the command
+        line that will start the shell, in the case of DOS, this would be
+        command.com or for windows, wind.  Next enter the full path name
+        of where this program is located.  It is not necessary to enter the
+        path name with backslashes (\).  Forward slashes may be substituted
+        in their place.  After enter the path, it will be necessary to make
+        default copies of individual data files in the directory
+        /etc/newuser/SHELLNAME.  These files are files that are used by a
+        specific user when they use the specified shell.  This way each
+        user can configure their use of the shell to suit their needs with-
+        out having to worry about how other users use the shell.  These
+        files may include .ini files in the case of windows.  These default
+        files are copied to a newusers home directory every time a user is
+        added to the system or a user changes their shell.  In addition, the
+        /etc/startsh/SHELLNAME.bat file should be modified so that these 
+        configuration files are copied from a user's home directory to the 
+        directory of the shell each time a user logs into the system.  Then
+        a user's login.bat file should be modified or a default login.bat
+        file should be placed in the /etc/newuser/SHELLNAME directory that
+        also copies these files out of the shell directory to the user's
+        home directory each time a user logs off the system.  It is important
+        to stress that a user should log off the system properly in order
+        for their configuration files to be up to date.
+
+        If a shell is to be removed, a list of all available shells will
+        be displayed.  Enter the number of the shell that is to be removed.
+
+FILES:
+        /etc/shells
+        /etc/newuser/shellname/*.*
+        /etc/startsh/*.*
+
+RELATED INFO:
+        chsh    login.bat
+
+QUIRKS:
+        None.
+
+Copyright 1992 Paul Walters
+
+

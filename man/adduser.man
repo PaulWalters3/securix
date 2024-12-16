@@ -1,0 +1,55 @@
+ 
+NAME:   adduser
+TYPE:   program
+USAGE:  adduser [userid]
+
+DESCRIPTION:
+        The adduser program adds additional userid's to the sytem
+        password file.  To run the adduser program, you must have
+        superuser capabilities.  
+
+        When starting adduser, the userid of the user may be given
+        as an argument, otherwise a prompt for the user id will
+        appear.  After entering the userid, the password this user
+        will use is asked for next.  The password must be entered
+        a second time for verification.
+
+        After choosing a password, a prompt for the user's home 
+        directory will appear.  The default directory will be listed
+        in brackets.  If this directory is acceptable, just press
+        the <Enter> key, otherwise enter the name of the new home
+        directory.  After choosing the home directory, you will have
+        the option of creating the home directory.  Enter a Y or N.
+
+        The option of choosing a shell for this user will appear
+        next.  These shells include DOS, and DOSSHELL.  Other shells
+        may be added to the system.  Choose the shell you wish to
+        have the user use upon logging in to the system.
+
+        Next, prompts for the user's real name and phone number will
+        appear.  Enter the appropriate information.  A status message
+        listing the user's user number will then appear.  Next, a
+        prompt to copy the login files to the user's home directory
+        will appear.  If you choose not to copy the login files, and
+        they are not already present in the home directory, then the
+        system may not be able to execute the proper shell after the
+        user logs into the system.
+
+        Finally, if everything succeeds, a message stating that the user
+        has been added to the system will appear.
+
+FILES:
+        \bin\adduser.exe
+        \etc\newuser\*.*
+        \etc\newuser\<shellname>\*.*
+        \etc\passwd
+        \usr\spool\mail\userid
+
+RELATED INFO:
+        chsh     finger     mkshell     passwd     rmuser
+
+QUIRKS:
+        None.
+
+Copyright 1992 Paul Walters
+

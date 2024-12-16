@@ -1,0 +1,21 @@
+ 
+NAME:   bulletin.msg
+TYPE:   text file
+USAGE:
+
+DESCRIPTION:
+        The bulletin.msg file is dislayed after each successful log in.
+        To change the bulletin.msg use an editor such as DOS edit.
+
+FILES:
+        \etc\bulletin.msg
+
+RELATED INFO:
+        login.msg
+
+QUIRKS:
+        None.
+
+Copyright 1992 Paul Walters
+
+

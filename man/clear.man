@@ -1,0 +1,20 @@
+ 
+NAME:   clear
+TYPE:   program
+USAGE:  clear
+
+DESCRIPTION:
+        This program clears the screen.
+
+FILES:
+        \bin\clear.exe
+
+RELATED INFO:
+        cls
+
+QUIRKS:
+        None
+
+Copyright 1992 Paul Walters
+
+

@@ -1,0 +1,32 @@
+ 
+NAME:   tail
+TYPE:   program
+USAGE:  tail [[[+|-]startpoint][r]] [-f] [file]
+
+DESCRIPTION:
+        The tail program by default will display the last ten lines
+        of the specified file.  If a starting point in the file is
+        given, the file is displayed from that point.  If the starting
+        point is positive, then the file will be displayed from the
+        line specified through the end of the file.  If the starting 
+        point is negative, then the file will be displayed from the
+        line specified from the end of the file to the end of the file.
+        If -r is given, then the file is displayed in reverse.  If the
+        -f option is given, then the last ten lines is displayed, then
+        the file is continually checked and any changes that have
+        occured since the first display are also displayed.  This will
+        continue until a key is pressed on the keyboard.
+
+        Filenames can use forward slashes (/) instead of backslashes (\).
+
+FILES:
+
+RELATED INFO:
+        head    more
+
+QUIRKS:
+        None.
+
+Copyright 1992 Paul Walters
+
+

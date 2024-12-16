@@ -1,0 +1,25 @@
+ 
+NAME:   timep
+TYPE:   program
+USAGE:  timep [-f filename] command [args...]
+
+DESCRIPTION:
+        The timep program executes the command given on the command line
+        and the generates timing statistics for the given program.  If
+        the -f option is given then a filename must also be given which
+        will contain the timing statistics for the given command instead
+        of displaying the information on the display.
+
+        Filenames can contain forward slashes (/) instead of backslashes 
+        (\).
+
+FILES:
+
+RELATED INFO:
+
+QUIRKS:
+        None.
+
+Copyright 1992 Paul Walters
+
+

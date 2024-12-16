@@ -1,0 +1,22 @@
+ 
+NAME:   home.bat
+TYPE:   batch file
+USAGE:  home
+
+DESCRIPTION:
+        The home.bat file is a batch file program that changes the 
+        current directory to the directory pointed to by the HOME
+        environment variable.
+
+FILES:
+        \usr\batch\home.bat
+
+RELATED INFO:
+        ch      home
+
+QUIRKS:
+        None.
+
+Copyright 1992 Paul Walters
+
+

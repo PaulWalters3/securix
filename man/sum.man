@@ -1,0 +1,20 @@
+ 
+NAME:   sum
+TYPE:   program
+USAGE:  sum file...
+
+DESCRIPTION:
+        The sum program produces a long (32-bit) checksum for the files
+        specified on the command line.  Filenames can contain forward
+        slashes (/) instead of backslashes (\).
+
+FILES:
+
+RELATED INFO:
+
+QUIRKS:
+        None.
+
+Copyright 1992 Paul Walters
+
+

@@ -1,0 +1,21 @@
+
+NAME:   today
+TYPE:   program
+USAGE:  today
+
+DESCRIPTION:
+	This program returns a string containing today's date and the
+	current system time.
+
+FILES:
+	\bin\today.exe
+
+RELATED INFO:
+	clock     date     mytime     time
+
+QUIRKS:
+	None.
+
+Copyright 1992 Paul Walters
+
+

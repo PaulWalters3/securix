@@ -1,0 +1,22 @@
+ 
+NAME:   ps
+TYPE:   program
+USAGE:  ps
+
+DESCRIPTION:
+        The ps program displays all programs and device drivers currently
+        in memory.  It display the process id (PID) or the process, which
+        is actually the PSP segment, the parent process id, the size of 
+        the program, and the name of the program.
+
+FILES:
+
+RELATED INFO:
+        kill    mem
+
+QUIRKS:
+        None.
+
+Copyright 1992 Paul Walters
+
+

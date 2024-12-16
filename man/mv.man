@@ -1,0 +1,30 @@
+ 
+NAME:   mv
+TYPE:   program
+USAGE:  mv [-[s][v]] source destination
+
+DESCRIPTION:
+        The mv program will move or rename the file(s) given by source
+        to the destination file.  If source specifies more than one
+        file using wildcards then the destination must be a directory
+        or a drive.
+        
+        The -s option causes mv to operate silently, by not displaying
+        the filename of each move.  
+        
+        The -v option prompts for verification before each move.
+
+        Path names do not need to given with a backslash (\).  A 
+        forward slash (/) will work just as well.
+
+FILES:
+        \bin\mv.exe
+
+RELATED INFO:
+        copy     cp     rename
+
+QUIRKS:
+        None.
+
+Copyright 1992 Paul Walters
+

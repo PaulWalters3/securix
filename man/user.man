@@ -1,0 +1,19 @@
+ 
+NAME:   user
+TYPE:   environment variable
+USAGE:  
+
+DESCRIPTION:
+        The user environment variable contains the userid of the current
+        user.  It is not advisable to change this variable.  Doing so
+        will corrupt the system and keep you from accessing certain 
+        programs.  It may even crash the system.
+
+RELATED INFO:
+        set
+
+QUIRKS:
+        None.
+
+Copyright 1992 Paul Walters
+

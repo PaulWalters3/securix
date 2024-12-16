@@ -1,0 +1,21 @@
+ 
+NAME:   df
+TYPE:   program
+USAGE:  df [drive]
+
+DESCRIPTION:
+        Returns the number of used and unused bytes on a given drive.
+        Drive C is the default drive.
+
+FILES:
+        \bin\df.exe
+
+RELATED INFO:
+        chdsk     dir     ls
+
+QUIRKS:
+        None.
+
+Copyright 1992 Paul Walters
+
+

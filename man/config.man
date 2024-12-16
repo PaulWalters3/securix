@@ -1,0 +1,88 @@
+ 
+NAME:   config
+TYPE:   system program
+USAGE:  config
+
+DESCRIPTION:
+        The config program configures the SECURIX system resources.  After
+        invoking the config program a user friendly menu of choices is 
+        displayed.  Superuser access control is needed to run the config
+        program.  Each configuration is explained below.
+
+        Arch default drive specifies the drive that the arch program will
+        use by default when a drive is not specified to the arch program.
+
+        Chdir alias installs or removes the SECURIX directory commands
+        chdir, mkdir, and rmdir.  When using these directory commands,
+        forward slashes may be used in place of backslashes.  
+
+        Default comspec environment variable specifies what dos will use
+        as its comspec environment variable.
+
+        Default home directory is the directory used by default when system
+        security is not enabled.
+
+        Default login shell is the shell program used when system security
+        is not enabled.
+
+        Default login userid is the userid used by the system and programs
+        when system security is not enabled.
+
+        Default path is the path used when system security is not enabled.
+
+        DOS directory is the full path name of where DOS is located.
+
+        File attribute controls grants and revokes to individual userid's
+        the ability to change file attributes with the chmod program.
+
+        Leave defaults specify the message displayed and the number of bells
+        heard when the leave program is used.
+
+        Login security specifies whether or not system security is enabled
+        or disabled.  When login security is enabled, each time access to the
+        system is desired, a userid and password must be entered.
+
+        Mount default command specifies the DOS command used by the mnt
+        program.  This is usually the join or subst command.
+
+        Password length restrictions specify the minimum length that 
+        individual passwords must be.
+
+        Printer setup specifies the default values used by the lp program
+        when lp is started.
+
+        Superuser access controls grant and revoke the ability of individual
+        userid's the ability to run system administration programs.
+
+        System authentication specifies whether or not the authchk program
+        is to be executed every time the system is booted.
+
+        System name specifies the name that the system is known as.
+
+        Time delay after invalid login specifies the number of seconds to
+        pause before prompting for a new userid after an invalid password
+        has been entered.
+
+        Timezone configures the timezone that the system is located in.
+
+
+FILES:
+        /etc/default/arch               /etc/auth/ignlogin
+        /etc/cd.set                     /etc/mnt
+        /etc/default/comspec            /etc/passwd.len
+        /etc/default/home               /etc/default/lp/buffer
+        /etc/default/shell              /etc/default/lp/device
+        /etc/default/user               /etc/default/lp/queue
+        /etc/default/path               /etc/su
+        /etc/dospath                    /etc/authchk.run
+        /etc/chmod                      /etc/default/timezone
+        /etc/default/leave              /etc/logretry
+
+RELATED INFO:
+
+QUIRKS:
+        None
+
+Copyright 1992 Paul Walters
+
+

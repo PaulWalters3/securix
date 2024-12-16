@@ -1,0 +1,24 @@
+ 
+NAME:   chsh
+TYPE:   program
+USAGE:  chsh [userid]
+
+DESCRIPTION:
+        The chsh program will change the login shell used by the current
+        user.  A list of different shells will be displayed when changing
+        the shell.  Just choose the number of the shell you wish to use.
+        A user with Superuser access controls can change the shell of
+        another user by specifying the userid on the command line.
+
+FILES:
+        /etc/shells
+
+RELATED INFO:
+        mkshell
+
+QUIRKS:
+        None.
+
+Copyright 1992 Paul Walters
+
+

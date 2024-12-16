@@ -1,0 +1,19 @@
+ 
+NAME:   HOME
+TYPE:   environment variable
+USAGE:
+
+DESCRIPTION:
+        The HOME environment variable points to a user's home directory.
+
+FILES:
+
+RELATED INFO:
+        ch     home.bat     set
+
+QUIRKS:
+        None.
+
+Copyright 1992 Paul Walters
+
+

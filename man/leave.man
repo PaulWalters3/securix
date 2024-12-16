@@ -1,0 +1,26 @@
+ 
+NAME:   leave
+TYPE:   program
+USAGE:  leave [hhmm]
+
+DESCRIPTION:
+        The leave program is an alarm clock that will display a message
+        when the time you specify has been reached.  If you do not specify
+        the time on the command line, then leave will prompt for the time.
+        In addition a bell will ring three times.
+
+        The message displayed can be configured with the config program.
+
+FILES:
+        /etc/defaul/leave
+
+RELATED INFO:
+        clock   date    mytime  time    today
+
+QUIRKS:
+        Leave has a tendency to lock up the system after displaying its
+        message.  Leave does not always work with windows.
+
+Copyright 1992 Paul Walters
+
+

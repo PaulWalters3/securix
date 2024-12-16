@@ -1,0 +1,22 @@
+
+NAME:   mytime
+TYPE:   program
+USAGE:  mytime
+
+DESCRIPTION:
+	This program returns a string containing today's date and the
+	current local time.  Local time is defined by the environment
+	variable TZ which sets the timezone.
+
+FILES:
+	\bin\mytime.exe
+
+RELATED INFO:
+	clock     date     time     timezone     today     TZ
+
+QUIRKS:
+	None.
+
+Copyright 1992 Paul Walters
+
+

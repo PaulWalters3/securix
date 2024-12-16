@@ -1,0 +1,43 @@
+ 
+NAME:   more
+TYPE:   program
+USAGE:  more [-[size][s]][+lines][+/pattern][file]
+
+DESCRIPTION:
+        The more program displays the specified file or displays what is
+        given from the standard input.  The first screen full is displayed
+        and then a prompt for more is displayed.  
+
+        If a size argument is given, the more program takes this to
+        be the size of the screen.  The default is 23 lines.  If the s
+        option is given, consecutive blank lines are eliminated from
+        being displayed.  If the lines argument is given, more will skip
+        over the given number of lines.  If +/pattern is given, more were
+        skip to the first occurence of the given pattern in the file.
+
+        If a Ctrl-Z is entered while more is receiving it's input from
+        standard input, then more is exited.
+
+        When more is prompting for more information, several choices are
+        available for additional information.  If a carriage return is
+        entered, then the next line of the file is displayed.  If the
+        space bar is pressed, then the next screenful of the file is
+        displayed.  If D is pressed, then the next half-screenful is 
+        displayed on the screen.  If the T is pressed, the top of the
+        file is displayed.  If N is pressed, then the next file in the
+        file list is displayed.  If Q is pressed, the more is exited.
+
+        Filenames do not need to entered with backslashes (\), forward
+        will slashes may be used in their placed.
+
+FILES:
+
+RELATED INFO:
+        head    more (DOS)      tail
+
+QUIRKS:
+        None.
+
+Copyright 1992 Paul Walters
+
+

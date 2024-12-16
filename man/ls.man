@@ -1,0 +1,53 @@
+ 
+NAME:   ls
+TYPE:   program
+USAGE:  ls [-[1][a][d][f][l][r] file...
+
+DESCRIPTION:
+        For each directory argument, ls lists the contents of the 
+        directory.  All output is sorted alphabetically by file name 
+        unless one of the options overrides this.
+        
+      Option    Description
+      ------    -----------
+        -1      Displays one directory entry per line.
+
+        -a      Displays all files, including hidden files.
+
+        -d       Displays the names of directories only.
+
+        -f      Displays the names of the files in the order the 
+                actually exist in the directory.  This option over-
+                rides the -l and -r options.
+
+        -l      Displays detailed information in the directory.
+
+                dsharw size time date filename
+
+                A   d  in the first column indicates the file is a 
+                       directory.
+                An  s  in the second column indicates a system file.
+                An  h  in the third column indicates a hidden file.
+                An  a  in the fourth column indicates the archive bit 
+                       is set.
+                An  r  in the fifth column indicates a readable file.
+                A   w  in the sixth column indicates a writable file.
+
+                The size is given in bytes.
+
+        -r      Sorts the filenames in reverse order.
+        
+        Path names do not need to given with a backslash (\).  A 
+        forward slash (/) will work just as well.
+
+FILES:
+        \bin\ls.exe
+
+RELATED INFO:
+        dir     tree
+
+QUIRKS:
+        None.
+
+Copyright 1992 Paul Walters
+

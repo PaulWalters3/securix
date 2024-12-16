@@ -1,0 +1,20 @@
+ 
+NAME:   sysinfo
+TYPE:   program
+USAGE:  sysinfo
+
+DESCRIPTION:
+        The sysinfo program displays information on the SECURIX system.
+        The system name, serial number, licensee, current user, system
+        security status, and the current date and time is displayed.
+
+FILES:
+
+RELATED INFO:
+        
+QUIRKS:
+        None.
+
+Copyright 1992 Paul Walters
+
+

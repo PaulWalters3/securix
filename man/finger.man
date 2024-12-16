@@ -1,0 +1,25 @@
+ 
+NAME:   finger
+TYPE:   program
+USAGE:  finger [userid]
+
+DESCRIPTION:
+        The finger program lists all the user id's, user numbers, their
+        actual name and phone number, and the date and time they last
+        logged into the system.
+
+        If finger is called with a userid given as an argument, then
+        only information pertaining to that user is displayed.
+
+FILES:
+        \bin\finger.exe
+        \etc\passwd
+        \etc\users\*.*
+
+RELATED INFO:
+
+QUIRKS:
+        None.
+
+Copyright 1992 Paul Walters
+

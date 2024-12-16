@@ -1,0 +1,30 @@
+ 
+NAME:   rmuser
+TYPE:   program
+USAGE:  rmuser userid
+
+DESCRIPTION:
+        The rmuser program removes the specified userid from the sytem
+        password file, and removes other files used for log in access
+        by the user.  To run the adduser program, you must have
+        superuser capabilities.  
+
+        The rmuser will give you the option of deleting the home directory
+        of this user.  Just answer Y or N to the appropriate question.
+
+FILES:
+        \bin\rmuser.exe
+        \etc\passwd
+        \users\userid\*.*
+        \etc\users\userid
+        \etc\users\failed\userid
+        \usr\spool\mail\userid
+
+RELATED INFO:
+        adduser
+
+QUIRKS:
+        None.
+
+Copyright 1992 Paul Walters
+

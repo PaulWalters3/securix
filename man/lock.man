@@ -1,0 +1,20 @@
+ 
+NAME:   lock
+TYPE:   program
+USAGE:  lock
+
+DESCRIPTION:
+        This command requests a password to be entered.  After entering
+        the password, the terminal may not be used until the password is
+        re-entered.
+
+FILES:
+        \bin\lock.exe
+
+RELATED INFO:
+
+QUIRKS:
+        None.
+
+Copyright 1992 Paul Walters
+

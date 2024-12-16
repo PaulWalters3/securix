@@ -1,0 +1,21 @@
+ 
+NAME:   pcpark
+TYPE:   program
+USAGE:  pcpark
+
+DESCRIPTION:
+        The pcpark program parks the heads on drive C.  The computer
+        should not be used after parking the heads, until the computer
+        is rebooted.
+
+FILES:
+
+RELATED INFO:
+        ps2park
+
+QUIRKS:
+        None.
+
+Copyright 1992 Paul Walters
+
+

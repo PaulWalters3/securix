@@ -1,0 +1,23 @@
+ 
+NAME:   copyrite.bat
+TYPE:   batch file
+USAGE:  copyrite
+
+DESCRIPTION:
+        The copyrite.bat batch file is executed everytime the system is
+        booted.  If you need additional copyright messages to be displayed
+        edit this file to your needs.  DO NOT remove any of the existing
+        messages.
+
+FILES:
+        \etc\startup.rc\copyrite.bat
+
+RELATED INFO:
+        startup.rc
+
+QUIRKS:
+        None.
+
+Copyright 1992 Paul Walters
+
+

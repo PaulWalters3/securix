@@ -1,0 +1,40 @@
+ 
+NAME:   chmod
+TYPE:   program
+USAGE:  chmod [[[-][+][w][h][s][v][d][a]...] filelist
+
+DESCRIPTION:
+        The chmod program will set file attributes for the specified files.
+        By preceeding an option with a +, the specified option will be
+        set.  If preceeding an option with a -, the specified option will
+        be removed.  The options are
+
+                w       allow write permission.
+                h       hidden file.
+                s       system file.
+                v       volume label.
+                d       sub-directory.
+                a       archive
+
+        You must have chmod access controls to change a files attributes.
+        To grant or revoke chmod access controls, run the config program.
+        Filenames may be given using a forward slash (/) instead of a 
+        back slash (\).  
+        It may be a good idea to remove all other file attribute programs
+        from the system if this is to be a multiuser system, since this
+        program limits who can change file attributes.  Examples of programs
+        that can change file attributes include the DOS attrib command and
+        Norton's fa program.
+
+FILES:
+        /etc/chmod
+
+RELATED INFO:
+        attrib
+
+QUIRKS:
+        None.
+
+Copyright 1992 Paul Walters
+
+

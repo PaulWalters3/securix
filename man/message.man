@@ -1,0 +1,21 @@
+ 
+NAME:   message
+TYPE:   text file
+USAGE:
+
+DESCRIPTION:
+        The message text file is kept in each user's home directory
+        and is displayed when they log in to the system.  Each user
+        can modify this text file by using an editor such as DOS edit.
+
+FILES:
+        %home%\message
+
+RELATED INFO:
+
+QUIRKS:
+        None.
+
+Copyright 1992 Paul Walters
+
+

@@ -1,0 +1,26 @@
+ 
+NAME:   authchk
+TYPE:   system program
+USAGE:  authchk
+
+DESCRIPTION:
+        The authchk program will check for any corrupt system files.  If
+        corrupt files are found, and attempt will be made to fix those
+        files.  Messages will be displayed when files are found to be 
+        corrupt.  The authchk program can be run at each boot by configuring
+        the system with the config program.  In order to run the authchk
+        program, the root password must be given.
+
+FILES:
+        /etc/authchk.run
+        /etc/auth/*.*
+
+RELATED INFO:
+        config  fixperm
+
+QUIRKS:
+        None.
+
+Copyright 1992 Paul Walters
+
+

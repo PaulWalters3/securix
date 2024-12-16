@@ -1,0 +1,21 @@
+ 
+NAME:   sdate
+TYPE:   program
+USAGE:  sdate [mmddyy]
+
+DESCRIPTION:
+        The sdate program will set the system date to the date specified
+        on the command line.  If no date is specified, then sdate will
+        prompt for the new date.
+
+FILES:
+
+RELATED INFO:
+        clock   date    mytime  stime   time    today
+
+QUIRKS:
+        None.
+
+Copyright 1992 Paul Walters
+
+

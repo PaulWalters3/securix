@@ -1,0 +1,25 @@
+ 
+NAME:   head
+TYPE:   program
+USAGE:  head [-lines][file]
+
+DESCRIPTION:
+        The head program will display the first ten lines of the
+        specified file.  If the - option is given, followed by a number,
+        then the first so many number of lines is displayed.  If no file
+        is given, the input is taken from standard input.  Ctrl-Z will
+        end the display if standard input is used.
+
+        Filenames may use a forward slash (/) instead of backslashes (\).
+
+FILES:
+
+RELATED INFO:
+        more    tail
+
+QUIRKS:
+        None.
+
+Copyright 1992 Paul Walters
+
+

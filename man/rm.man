@@ -1,0 +1,30 @@
+ 
+NAME:   rm
+TYPE:   program
+USAGE:  rm [-[s][v] file...
+
+DESCRIPTION:
+        This program erases the files given in the file list.
+        Filenames may be given as wildcards.  An * matches a string
+        of characters while a ? matches a single character.
+
+        The -s option will erase files without printing the name of
+        each file that is being erased.
+
+        The -v option will prompt to make sure you wish to erase each
+        file individually.
+
+        Path names do not need to given with a backslash (\).  A 
+        forward slash (/) will work just as well.
+
+FILES:
+        \bin\rm.exe
+
+RELATED INFO:
+        delete     erase
+
+QUIRKS:
+        None.
+
+Copyright 1992 Paul Walters
+

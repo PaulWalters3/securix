@@ -1,0 +1,29 @@
+ 
+NAME:   rmd
+TYPE:   program
+USAGE:  rmd [-r] directory
+
+DESCRIPTION:
+        The rmd program is the SECURIX remove directory command.  This
+        command differs from the DOS rmdir program in that forward
+        slashes (/) may be used in path names instead of backslashes(/).
+
+        When invoked with the -r option, rmd with recursively remove
+        all subdirectories of the directory given along with the named
+        directory.
+
+        The rmd program may be installed as the default rd and rmdir
+        program by running the config program.
+
+FILES:
+
+RELATED INFO:
+        cd      chd     chdir   config  doskey
+        md      mkd     mkdir   rd      rmdir   
+
+QUIRKS:
+        None.
+
+Copyright 1992 Paul Walters
+
+

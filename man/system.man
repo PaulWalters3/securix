@@ -1,0 +1,22 @@
+ 
+NAME:   system.bat
+TYPE:   batch file
+USAGE:  system
+
+DESCRIPTION:
+        The system.bat batch file contains commands that are executed on
+        startup of the computer system.  This file should be used instead
+        of using an autoexec.bat file.
+
+FILES:
+        /etc/startup.rc/system.bat
+
+RELATED INFO:
+        startup.rc
+
+QUIRKS:
+        None.
+
+Copyright 1992 Paul Walters
+
+

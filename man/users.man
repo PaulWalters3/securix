@@ -1,0 +1,22 @@
+ 
+NAME:   users
+TYPE:   directory
+USAGE:
+
+DESCRIPTION:
+        The users directory contains information for each user to
+        when they last logged in and when the last failed logged in
+        occured for this user.
+
+FILES:
+        \etc\users\*.*
+        \etc\users\failed\*.*
+
+RELATED INFO:
+
+QUIRKS:
+        None.
+
+Copyright 1992 Paul Walters
+
+

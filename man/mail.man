@@ -1,0 +1,64 @@
+ 
+NAME:   mail
+TYPE:   program
+USAGE:  mail [-e]|[userid [subject filename]]
+
+DESCRIPTION:
+        This program sends mail to a given userid on the computer
+        system.  If the mail program is given a userid, then mail 
+        will only invoke its send portion, and send mail from your 
+        userid to the userid specified.  If the userid, the subject, 
+        and a filename to read the mail from is specified, then mail 
+        will be sent to the specified user with the given subject, 
+        and the message will be read from the file given.  If the 
+        subject is more than one word, it must be given in double 
+        quotes (""). 
+
+        Mail messages are restricted to 2048 characters however by
+        specifying the userid, subject, and filename, mail messages
+        can be any size desired.
+
+        If mail is invoked with the -e option, then mail will check for
+        the presence of mail in the users mailbox and print a message
+        stating the status of that mailbox.
+
+        If mail is invoked with no arguments then the mail menu will
+        appear.  The mail options including reading mail, sending mail,
+        deleting mail, and listing mail messages.  
+
+        When sending mail from the menu, prompts for the recipient
+        userid and subject will appear.  Then, you will be able to 
+        type your message of up to 2048 characters.  Editing keys,
+        such as the cursor keys, are not active.  When finished typing
+        the message, hit CTRL-Z to end the message.
+
+        When reading mail, all applicable mail message headers are 
+        displayed, followed by a prompt asking for the message number
+        to read.  After entering the message number, the appropriate
+        message is displayed.  After every 20 lines are displayed, the
+        message is paused until you press a key.
+
+        When deleting mail, all applicable mail message headers are
+        displayed, followed by a prompt asking for the message number
+        to delete.  After entering the message number to be deleted,
+        the appropriate message is removed from the mailbox.
+
+        The list mail feature lists headers of all mail messages in the
+        mailbox.  The header includes the userid of the person who sent
+        the mail, the subject of the message, and the date the mail
+        was sent.
+
+        To exit the mail utility, press the Q key at the main menu.
+
+FILES:
+        \bin\mail.exe
+        \usr\spool\mail\*.*
+
+RELATED INFO:
+        chkmail
+
+QUIRKS:
+        None.
+
+Copyright 1992 Paul Walters
+

@@ -1,0 +1,20 @@
+ 
+NAME:   sync
+TYPE:   batch file
+USAGE:  sync
+
+DESCRIPTION:
+        This batch file updates the disk by forcing all information in
+        the write-back cache to be written to disk.  It assumes, that
+        smartdrv is the currently working disk cache program. 
+
+FILES:
+        \usr\bin\sync.bat
+
+RELATED INFO:
+
+QUIRKS:
+        None.
+
+Copyright 1992 Paul Walters
+

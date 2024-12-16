@@ -1,0 +1,28 @@
+ 
+NAME:   lp
+TYPE:   program
+USAGE:  lp [-d{device}][files...]
+
+DESCRIPTION:
+        The lp program will print the specified files to the given device.
+        If no files are specified, then lp installs itself and waits for
+        requests.  lp uses defaults found in the /etc/default/lp directory.
+        These defaults may be configured with the config program.
+
+        Filenames may be given using foward slashes (/) instead of back
+        slashes (\).
+
+FILES:
+        /etc/default/lp/buffer
+        /etc/default/lp/device
+        /etc/default/lp/queue
+
+RELATED INFO:
+        lpq     lprm    print
+
+QUIRKS:
+        None.
+
+Copyright 1992 Paul Walters
+
+

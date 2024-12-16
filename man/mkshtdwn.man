@@ -1,0 +1,34 @@
+ 
+NAME:   mkshtdwn
+TYPE:   program
+USAGE:  mkshtdwn
+
+DESCRIPTION:
+        The mkshtdwn program configures the system so that certain 
+        commands are performed when the shutdown command is executed.
+        mkshtdwn displays a menu with the options of installing or
+        removing a shutdown configuration.  
+        
+        Installing a shutdown configuration will overwrite any other 
+        configuration.  When installing a shutdown configuration, you
+        will be prompted for a command to be executed at shutdown
+        time.  The full path of the command should be entered.  For
+        example, if you wish to have the park.com program run at 
+        shutdown time and the program is in the c:\dos directory, you
+        would enter c:\dos\park.com.
+
+        The mkshtdwn program must be run by a user with superuser
+        privledges.
+
+FILES:
+        \etc\mkshtdwn.exe
+        \etc\config\shutdown
+
+RELATED INFO:
+        shutdown
+
+QUIRKS:
+        None.
+
+Copyright 1992 Paul Walters
+

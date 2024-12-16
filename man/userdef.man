@@ -1,0 +1,22 @@
+ 
+NAME:   userdef.bat
+TYPE:   batch file
+USAGE:  userdef
+
+DESCRIPTION:
+        The userdef file contains statements that are executed each time
+        the computer system is booted.  Users may modify this file to
+        their needs.
+
+FILES:
+        \etc\startup.rc\userdef.bat
+
+RELATED INFO:
+        startup.rc
+
+QUIRKS:
+        None.
+
+Copyright 1992 Paul Walters
+
+

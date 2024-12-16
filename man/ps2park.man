@@ -1,0 +1,21 @@
+ 
+NAME:   ps2park
+TYPE:   program
+USAGE:  ps2park
+
+DESCRIPTION:
+        The ps2park program parks the heads on drive C of a microchannel
+        computer.  The computer should not be used after parking the heads, 
+        until the computer is rebooted.
+
+FILES:
+
+RELATED INFO:
+        pcpark
+
+QUIRKS:
+        None.
+
+Copyright 1992 Paul Walters
+
+

@@ -1,0 +1,23 @@
+ 
+NAME:   su
+TYPE:   program
+USAGE:  su [userid]
+
+DESCRIPTION:
+        The su program allows the current userid to temporarily become
+        another user.  When su is invoked without a userid, su attempts
+        to become user root.  su will prompt for a userid if you are not
+        already root.
+
+        To exit su, type exit.
+
+FILES:
+        
+RELATED INFO:
+
+QUIRKS:
+        None.
+
+Copyright 1992 Paul Walters
+
+

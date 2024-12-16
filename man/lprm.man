@@ -1,0 +1,24 @@
+ 
+NAME:   lprm
+TYPE:   program
+USAGE:  lprm [-a][file...]
+
+DESCRIPTION:
+        The lprm program will remove the specified files from the print
+        queue.  If the -a option is given, then lprm will attempt to
+        remove all files from the print queue.
+
+        Filenames may be given with a forward slash (/) instead of a 
+        back slash (\).
+
+FILES:
+
+RELATED INFO:
+        lp      lpq     print
+
+QUIRKS:
+        None.
+
+Copyright 1992 Paul Walters
+
+

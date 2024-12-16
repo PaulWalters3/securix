@@ -1,0 +1,21 @@
+ 
+NAME:   stime
+TYPE:   program
+USAGE:  stime [hhmmss]
+
+DESCRIPTION:
+        The stime program will set the system time to the time specified
+        on the command line.  If no time is specified, then stime will
+        prompt for the new time.
+
+FILES:
+
+RELATED INFO:
+        clock   date    mytime  sdate   time    today
+
+QUIRKS:
+        None.
+
+Copyright 1992 Paul Walters
+
+

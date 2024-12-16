@@ -1,0 +1,20 @@
+ 
+NAME:   lpq
+TYPE:   program
+USAGE:  lpq
+
+DESCRIPTION:
+        The lpq program displays the files in the print queue, and the
+        status of the print queue.
+
+FILES:
+
+RELATED INFO:
+        lp      lprm    print
+
+QUIRKS:
+        None.
+
+Copyright 1992 Paul Walters
+
+

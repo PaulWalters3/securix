@@ -1,0 +1,21 @@
+ 
+NAME:   startup.rc
+TYPE:   directory
+USAGE:  
+
+DESCRIPTION:
+        The startup.rc directory contains batch files that are executed
+        each time the computer system is booted.  All batch files located
+        in this directory are executed at boot.
+
+FILES:
+        \etc\startup.rc\*.bat
+
+RELATED INFO:
+
+QUIRKS:
+        None.
+
+Copyright 1992 Paul Walters
+
+

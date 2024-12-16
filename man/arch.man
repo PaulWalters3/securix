@@ -1,0 +1,56 @@
+ 
+NAME:   arch
+TYPE:   program
+USAGE:  arch {actx}[f][k][l][o][p][s] [file|device] [bytes] [list] [files...]
+
+DESCRIPTION:
+        The arch program is a backup utility.  Arch must take at least two
+        command line options.  The first of these options is in the {actx}
+        group.  If a is given, the arch will append to an already existing
+        archive.  If c is given, arch will create a new archive.  If t is
+        given, then arch will display the files in an archive.  If x is 
+        given, then arch will extract files from the archive.  
+        
+        Arch must also know the name of the device or file to read from or
+        write to.  The default device is given in /etc/default/arch.  However
+        if it is necessary to give a different device, the f argument must
+        be given on the command line.  Then the next argument following must
+        be the name of the device or file.  For example to write the file
+        test.dat to drive b, use "arch cf b: test.dat".  
+        
+        The amount of bytes to write to a disk can also be given to arch 
+        with the k argument.  If the k argument is given, then the argument 
+        after the device (if it exists) must be the size in bytes of the 
+        archive.  For instance, to specify to write the same file as before 
+        to drive b, and to use only 700000 bytes per disk use "arch cfk b: 
+        700000 test.dat".  If no size is given, then arch will use the 
+        amount of space left on the disk to write its files.  
+        
+        If the o argument is given, then arch will erase all existing files 
+        on the destination device. 
+        
+        If the l argument is given, thn arch will get the names of files to
+        write from the filename given.  This filename should come after the
+        byte size (if given).
+
+        The s option will cause arch to operate silently, not displaying
+        file information when writing and reading files.
+
+        If the p option is given, then arch will not prompt to insert a
+        new device when it has reached the end of the current archive.
+
+        Filenames may be given with a forward slash (/) instead of a back
+        slash (\).
+
+FILES:
+        /etc/default/arch
+
+RELATED INFO:
+        backup  restore
+
+QUIRKS:
+        None.
+
+Copyright 1992 Paul Walters
+
+

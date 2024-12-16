@@ -1,0 +1,22 @@
+ 
+NAME:   cache.bat
+TYPE:   batch file
+USAGE:  cache
+
+DESCRIPTION:
+        The cache batch file contains statements needed to start any
+        memory managers or caching programs used by the system.  This
+        file is run at boot time.
+
+FILES:
+        \etc\startup.rc\cache.bat
+
+RELATED INFO:
+        startup.rc
+
+QUIRKS:
+        None
+
+Copyright 1992 Paul Walters
+
+

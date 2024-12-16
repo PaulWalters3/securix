@@ -1,0 +1,24 @@
+ 
+NAME:   autoexec.bat
+TYPE:   batch file
+USAGE:  autoexec
+
+DESCRIPTION:
+        The autoexec.bat batch file is a DOS batch file that is executed
+        each time the system is booted.  The autoexec file should NOT be
+        changed for system security may be compromised.  If you need to
+        execute certain programs at boot, create batch file in the 
+        /etc/startup.rc directory.
+
+FILES:
+        /autoexec.bat
+
+RELATED INFO:
+        startup.rc         system.bat
+
+QUIRKS:
+        None.
+
+Copyright 1992 Paul Walters
+
+

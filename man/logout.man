@@ -1,0 +1,20 @@
+ 
+NAME:   logout
+TYPE:   batch file
+USAGE:  logout
+
+DESCRIPTION:
+        Logout is a batch file that exits the current shell and 
+        returns to the login prompt to await the next login.
+
+FILES:
+        \usr\batch\logout.bat
+
+RELATED INFO:
+        exit     login
+
+QUIRKS:
+        None.
+
+Copyright 1992 Paul Walters
+

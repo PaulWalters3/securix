@@ -1,0 +1,16 @@
+ 
+NAME:   CWD
+TYPE:   environment variable
+
+DESCRIPTION:
+        This environment variable contains the current working directory.
+
+RELATED INFO:
+        cd     chd     chdir     dir     ls     pwd
+
+QUIRKS:
+        None.
+
+Copyright 1992 Paul Walters
+
+

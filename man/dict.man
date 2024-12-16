@@ -1,0 +1,22 @@
+ 
+NAME:   dict
+TYPE:   text file
+USAGE:
+
+DESCRIPTION:
+        The dict file contains a dictionary that is consulted with
+        the look program.
+
+        Edit this file as necessary to include common words.
+FILES:
+        \usr\doc\dict
+
+RELATED INFO:
+        look
+
+QUIRKS:
+        None.
+
+Copyright 1992 Paul Walters
+
+

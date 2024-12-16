@@ -1,0 +1,20 @@
+ 
+NAME:   pwd
+TYPE:   program
+USAGE:  pwd
+
+DESCRIPTION:
+        This program prints the currently working directory.
+
+FILES:
+        \bin\pwd.exe
+
+RELATED INFO:
+        CWD     dir     ls
+
+QUIRKS:
+        None.
+
+Copyright 1992 Paul Walters
+
+

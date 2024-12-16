@@ -1,0 +1,27 @@
+
+NAME:   cat
+TYPE:   program
+USAGE:  cat [-][filename] [[-][filename]]
+
+DESCRIPTION:
+        The cat program displays the contents of up to two files.  A 
+        dash (-) may be substituted in place of a filename to indicate
+        that the standard input (keyboard) will be used as the file.
+        When using standard input for the file, CTRL-Z will close the
+        file.  The second filename is optional.  
+        
+        Path names do not need to given with a backslash (\).  A 
+        forward slash (/) will work just as well.
+
+FILES:
+        \bin\cat.exe
+
+RELATED INFO:
+        type
+
+QUIRKS:
+        None.
+
+Copyright 1992 Paul Walters
+
+

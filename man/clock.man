@@ -1,0 +1,22 @@
+
+NAME:   clock
+TYPE:   program
+USAGE:  clock
+
+DESCRIPTION:    
+        The clock program is a TSR program which displays the current 
+        time in the upper right-hand corner of a color or monochrome
+        80-column text screen.
+
+FILES:
+        \bin\clock.exe
+
+RELATED INFO:
+        date     leave     mytime     time     today
+
+QUIRKS:
+        Clock seems to run 26 seconds faster than the system clock.
+
+Copyright 1992 Paul Walters
+
+

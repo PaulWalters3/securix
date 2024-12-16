@@ -1,0 +1,23 @@
+ 
+NAME:   kill
+TYPE:   program
+USAGE:  kill pid
+
+DESCRIPTION:
+        The kill program will free up memory by removing the program
+        specified the process identification (PID) from memory.  The
+        kill program is a dangerous program and should be used care-
+        fully.  Do not use this program in windows or a system crash
+        is sure to occur.
+
+FILES:
+
+RELATED INFO:
+        ps
+
+QUIRKS:
+        If certain programs are removed, a system crash will occur.
+        
+Copyright 1992 Paul Walters
+
+

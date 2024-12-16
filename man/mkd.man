@@ -1,0 +1,25 @@
+ 
+NAME:   mkd
+TYPE:   program
+USAGE:  mkd directory
+
+DESCRIPTION:
+        The mkd program is the SECURIX make directory command.  This
+        command differs from the DOS mkdir program in that forward
+        slashes (/) may be used in path names instead of backslashes(/).
+
+        The mkd program may be installed as the default md and mkdir
+        program by running the config program.
+
+FILES:
+
+RELATED INFO:
+        cd      chd     chdir   config  doskey
+        md      mkdir   rd      rmd     rmdir   
+
+QUIRKS:
+        None.
+
+Copyright 1992 Paul Walters
+
+

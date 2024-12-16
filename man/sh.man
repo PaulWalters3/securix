@@ -1,0 +1,17 @@
+ 
+NAME:   sh
+TYPE:   environment variable
+USAGE:  
+
+DESCRIPTION:
+        The sh environment variable contains the name of the shell the
+        current user is using.
+
+RELATED INFO:
+        chsh     mksh     set
+
+QUIRKS:
+        None.
+
+Copyright 1992 Paul Walters
+

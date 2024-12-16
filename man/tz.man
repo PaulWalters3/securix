@@ -1,0 +1,35 @@
+
+NAME:   TZ
+TYPE:   environment variable
+USAGE:
+
+DESCRIPTION:
+        The timezone environment variable contains information 
+        regarding the timezone a particular user is located in.  Should 
+        a user log in to the system from a timezone outside the system 
+        timezone, certain programs will display the date and time in 
+        that user's local timezone.  The format of the environment 
+        variable is HST#HDT# where HST is the name of the standard 
+        timezone.  The first pound symbol (#) is the number of hours 
+        west of Greenwich mean time for which this time zone is located.  
+        Timezones east of Greenwich mean time use negative numbers.  
+        HDT is the name of the timezone when daylight savings time is 
+        in effect.  The last (optional) pound sign is the number of 
+        hours west of Greenwich mean time for which this time zone is 
+        located during daylight savings time.  The default is one less 
+        the standard time.
+
+        An example for Eastern standard time would look like this:
+        EST5EDT
+
+FILES:
+
+RELATED INFO:
+        login.bat     mytime     set     timezone
+
+QUIRKS:
+        Not compatible with DOS.  Exists for Unix compatibility.
+
+Copyright 1992 Paul Walters
+
+

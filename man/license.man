@@ -1,0 +1,21 @@
+ 
+NAME:   license
+TYPE:   installation program
+USAGE:  license
+
+DESCRIPTION:
+        The license program is to only be used when SECURIX needs to be
+        initialized with a proper serial number and activation key.  Once
+        license is used or setup is run, license should not be needed.
+
+FILES:
+        /etc/license
+
+RELATED INFO:
+
+QUIRKS:
+        None.
+
+Copyright 1992 Paul Walters
+
+

@@ -1,0 +1,21 @@
+
+NAME:   w
+TYPE:   program
+USAGE:  w
+
+DESCRIPTION:
+        This program displays all the users currently using the system
+        and their log in times.
+
+FILES:
+        \bin\w.exe     
+        \etc\users\*
+
+RELATED INFO:
+        users
+
+QUIRKS:
+        None.
+
+Copyright 1992 Paul Walters
+

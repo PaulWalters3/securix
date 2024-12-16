@@ -1,0 +1,25 @@
+ 
+NAME:   login.bat
+TYPE:   batch file
+USAGE:  login
+
+DESCRIPTION:
+        Every user has a login.bat file in their home directory.
+        After logging into the system, the login.bat file of the
+        particular user is executed.  This login.bat file can
+        be customized to the user's wishes.  However, it is 
+        recommended that information pertaining to the file path
+        remain in the login.bat file.  The user may add to this
+        path as they wish.
+
+FILES:
+        \users\*.*\login.bat
+
+RELATED INFO:
+        login     logout
+
+QUIRKS:
+        None.
+
+Copyright 1992 Paul Walters
+

@@ -1,0 +1,20 @@
+ 
+NAME:   touch
+TYPE:   program
+USAGE:  touch file...
+
+DESCRIPTION:
+        The touch program updates the creation time of the specified
+        files to the current date and time.  Filenames can use the
+        forward slash (/) instead of the backslash (\).
+
+FILES:
+
+RELATED INFO:
+
+QUIRKS:
+        None.
+
+Copyright 1992 Paul Walters
+
+

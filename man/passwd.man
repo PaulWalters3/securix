@@ -1,0 +1,27 @@
+ 
+NAME:   passwd
+TYPE:   program
+USAGE:  passwd [-f][userid]
+
+DESCRIPTION:
+        This program changes a user's password.  If a userid is given
+        as an argument to the program and the user running passwd has
+        superuser privledges, then they can change the password of the
+        given userid.
+
+        If the -f option is given, then the personal information is
+        changed for a user.
+
+FILES:
+        \bin\passwd.exe
+        \etc\passwd
+        \etc\default\shadow
+
+RELATED INFO:
+        adduser     finger     rmuser
+
+QUIRKS:
+        None.
+
+Copyright 1992 Paul Walters
+

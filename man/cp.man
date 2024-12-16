@@ -1,0 +1,32 @@
+ 
+NAME:   cp
+TYPE:   program
+USAGE:  cp [-[s][v] file destination
+
+DESCRIPTION:
+        This program copies the file given by file.  This file
+        may contain wildcards.  An * matches a string of characters
+        while a ? matches a single character.  If the file references
+        more than one file, then the destination must be a directory
+        or a drive letter.
+
+        The -s option will not display the names of the files that
+        are being copied each time.
+
+        The -v option will prompt to make sure you wish to copy each
+        file individually.
+        
+        Path names do not need to given with a backslash (\).  A 
+        forward slash (/) will work just as well.
+
+FILES:
+        \bin\cp.exe
+
+RELATED INFO:
+        copy     mv     rename     xcopy
+
+QUIRKS:
+        None
+
+Copyright 1992 Paul Walters
+

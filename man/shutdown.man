@@ -1,0 +1,22 @@
+ 
+NAME:   shutdown
+TYPE:   program
+USAGE:  shutdown
+
+DESCRIPTION:
+        This program executes the program stored in the shutdown 
+        configuration file.  Then locks the system, so no other
+        processing can take place until the system is rebooted.
+
+FILES:
+        \bin\shutdown.exe     
+        \etc\config\shutdown
+
+RELATED INFO:
+        mkshtdwn
+
+QUIRKS:
+        None.
+
+Copyright 1992 Paul Walters
+

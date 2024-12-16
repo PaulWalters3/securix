@@ -1,0 +1,22 @@
+ 
+NAME:   auth
+TYPE:   directory
+USAGE:
+
+DESCRIPTION:
+        The \etc\auth directory contains system authentication files.
+        These files should NEVER be modified or deleting.  Doing so
+        will compromise system security and will keep SECURIX programs
+        from executing.
+
+FILES:
+        \etc\auth\*.*
+
+RELATED INFO:
+
+QUIRKS:
+        None.
+
+Copyright 1992 Paul Walters
+
+

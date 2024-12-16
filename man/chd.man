@@ -1,0 +1,30 @@
+ 
+NAME:   chd
+TYPE:   program
+USAGE:  chd [directory]
+
+DESCRIPTION:
+        The chd program changes the active directory to the directory
+        given.  If no directory is given, then the directory pointed
+        to by the environment variable HOME becomes the current
+        directory.  The environment variable CWD is set to the current
+        working directory after calling chd.
+        
+        Path names do not need to given with a backslash (\).
+        A forward slash (/) will work just as well.
+
+        The chd program may be configured as the default cd and chdir
+        program by running the config program.
+
+FILES:
+        \bin\ch.exe
+
+RELATED INFO:
+        cd     cd.set     chdir     CWD     dir     home     ls
+
+QUIRKS:
+        None.
+
+Copyright 1992 Paul Walters
+
+

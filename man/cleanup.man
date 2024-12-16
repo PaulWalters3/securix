@@ -1,0 +1,23 @@
+ 
+NAME:   cleanup.bat
+TYPE:   batch file
+USAGE:  cleanup
+
+DESCRIPTION:
+        The cleanup.bat file is a batch file that is executed everytime
+        the system is booted.  It cleans the \tmp directory.  If there
+        are any other chores users wish to have this file perform, they
+        may add them to this file as they need.
+
+FILES:
+        \etc\startup.rc\cleanup.bat
+
+RELATED INFO:
+        startup.rc
+
+QUIRKS:
+        None.
+
+Copyright 1992 Paul Walters
+
+

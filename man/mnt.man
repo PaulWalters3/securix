@@ -1,0 +1,29 @@
+ 
+NAME:   mnt
+TYPE:   program
+USAGE:  mnt [-d] drive path
+
+DESCRIPTION:
+        The mnt program acts as the join and subst programs in DOS.
+        The program it emulates depends on how it is configured.  It
+        may emulate any other program that works the way these two
+        programs do.  By specifying the -d option, mnt will remove
+        the join or substitution.  See you DOS reference on join and
+        subst for more information.  To configure the program used,
+        run the config program.
+
+        Path names may be given with a forward slash (/) instead of a
+        back slash (\).
+
+FILES:
+        /etc/mnt
+
+RELATED INFO:
+        join    subst
+
+QUIRKS:
+        None.
+
+Copyright 1992 Paul Walters
+
+

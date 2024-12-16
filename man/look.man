@@ -1,0 +1,23 @@
+ 
+NAME:   look
+TYPE:   program
+USAGE:  look string [file]
+
+DESCRIPTION:
+        The look program will display all the lines in the specified 
+        file that contain the string given.  If no file is given, then
+        the file /usr/doc/dict is used.
+
+        Filenames may use a forward slash (/) instead of a back slash (\).
+
+FILES:
+        /usr/doc/dict
+
+RELATED INFO:
+
+QUIRKS:
+        None.
+
+Copyright 1992 Paul Walters
+
+

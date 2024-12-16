@@ -1,0 +1,21 @@
+ 
+NAME:   fmem
+TYPE:   program
+USAGE:  fmem
+
+DESCRIPTION:
+        The fmem program displays information regarding memory usage.
+        The amount of free and total conventional memory is displayed.
+        Also the amount of free and total extended memory is displayed.
+
+FILES:
+
+RELATED INFO:
+        mem     ps
+
+QUIRKS:
+        Total extended memory does not work on all machines.
+
+Copyright 1992 Paul Walters
+
+

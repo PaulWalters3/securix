@@ -1,0 +1,28 @@
+ 
+NAME:   fixperm
+TYPE:   system program
+USAGE:  fixperm
+
+DESCRIPTION:
+        The fixperm will check the file permissions of SECURIX system
+        files and set them correctly if necessary.  Superuser access
+        privledges are necessary to run fixperm.
+
+        The file /etc/perms contains all the files that need to be checked
+        and their permissions.
+
+        A permission of 256 means read only access.  A permission of 384
+        means read and write access.
+
+FILES:
+        /etc/perms
+
+RELATED INFO:
+        authchk         config
+
+QUIRKS:
+        None.
+
+Copyright 1992 Paul Walters
+
+

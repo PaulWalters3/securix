@@ -1,0 +1,19 @@
+ 
+NAME:   sleep
+TYPE:   program
+USAGE:  sleep seconds
+
+DESCRIPTION:
+        This program suspends all processing for the number of seconds
+        given in the command line.  
+
+FILES:
+        \bin\sleep.exe
+
+RELATED INFO:
+
+QUIRKS:
+        None.
+
+Copyright 1992 Paul Walters
+

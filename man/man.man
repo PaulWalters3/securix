@@ -1,0 +1,32 @@
+ 
+NAME:   man
+TYPE:   program
+USAGE:  man command
+
+DESCRIPTION:
+        This program takes the argument passed to it and returns the 
+        manual page about that argument.  If there is no man page for 
+        a given command, then the dos help file tryed.  If the command 
+        is still not found, then an appropriate message is displayed.
+
+        Man will display 20 lines at a time.  To display the next screen-
+        full worth of information, strike the space bar.  To display only
+        the next 10 lines hit the D key.  To display one more line at a 
+        time, hit the <Enter> key.  To display the top of the file, hit 
+        the T key.To quit the man program, hit the q key.
+
+        The \etc\default\man.sh contains a shell outline of a man page
+        so that users may create their own man pages.
+FILES:
+        \bin\man.exe
+        \usr\man\*.*
+
+RELATED INFO:
+        help
+
+QUIRKS:
+        Man will not go back to screens.  If you hit R then R again, the
+        same screen the first R displayed will be re-displayed.
+
+Copyright 1992 Paul Walters
+

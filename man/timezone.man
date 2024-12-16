@@ -1,0 +1,37 @@
+
+NAME:   timezone
+TYPE:   data file
+USAGE:
+
+DESCRIPTION:
+        The timezone file contains information regarding the timezone
+        the computer system is located in.  The format of the file is
+        HST#HDT#
+        where HST is the name of the standard timezone.  The first pound
+        symbol (#) is the number of hours west of Greenwich mean time
+        for which this time zone is located.  Timezones east of Greenwich
+        mean time use negative numbers.  HDT is the name of the timezone
+        when daylight savings time is in effect.  The last (optional)
+        pound sign is the number of hours west of Greenwich mean time
+        for which this time zone is located during daylight savings time.
+        The default is one less the standard time.
+
+        An example for Eastern standard time would look like this:
+        EST5EDT
+
+        The timezone that the computer system is located in is contained
+        in the file \etc\default\timezone.
+
+FILES:
+        \etc\timezone
+        \etc\default\timezone
+
+RELATED INFO:
+        mytime     TZ
+
+QUIRKS:
+        Not compatible with DOS.  Exists for Unix compatibility.
+
+Copyright 1992 Paul Walters
+
+

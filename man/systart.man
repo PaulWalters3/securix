@@ -1,0 +1,21 @@
+ 
+NAME:   sysstart
+TYPE:   program
+USAGE:  sysstart
+
+DESCRIPTION:
+        The sysstart program displays information on when the computer
+        system was last booted and how long the computer system has been
+        running.
+
+FILES:
+        /etc/sysstart
+
+RELATED INFO:
+
+QUIRKS:
+        None.
+
+Copyright 1992 Paul Walters
+
+
